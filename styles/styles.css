@@ -1,1 +1,18 @@
+.bgcolor{
+  /*Base background color*/
+  background-color: #777777;
+}
 
+.title_text{
+  color: #FFFFFF;
+  font-size: 26px;
+  font-family: Tahoma, Geneva, sans-serif
+  /*Titular text base*/
+}
+
+.body_text{
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+  /*Body text base*/
+}
