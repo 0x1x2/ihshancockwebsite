@@ -1,6 +1,18 @@
+/*
+* CONVENTIONS NOTE
+* You can use multiple tags to make text more specific without a ton of more classes.
+* For example, if you want all caps but with the same size as body text, you can do
+* class="allcaps body_text" in your HTML.
+* kay, thanks <3
+*/ 
 .bgcolor{
   /*Base background color*/
   background-color: #777777;
+}
+
+.allcaps{
+  /*All caps tag*/
+  text-transform: uppercase;
 }
 
 .title_text{
