@@ -10,6 +10,14 @@
   background-color: #777777;
 }
 
+.light_text{
+  font-weight: lighter;
+}
+
+.bold_text{
+  font-weight: bold;
+}
+
 .allcaps{
   /*All caps tag*/
   text-transform: uppercase;
