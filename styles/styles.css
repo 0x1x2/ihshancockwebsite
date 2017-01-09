@@ -40,9 +40,15 @@ div{
   /*Titular text base*/
 }
 
+.subtitle_text{
+  color: #FFFFFF;
+  font-size: 200%;
+  font-family: Raleway, Geneva, sans-serif
+}
+
 .body_text{
   color: #FFFFFF;
-  font-size: 12px;
+  font-size: 100%;
   font-family: "Trebuchet MS", Helvetica, sans-serif
   /*Body text base*/
 }
