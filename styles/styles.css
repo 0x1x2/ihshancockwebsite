@@ -65,7 +65,10 @@ body{
 	background-color: #21870B;
 	color: #21870B;
 }
-
+p.captionP2{
+	position: absolute;
+	
+}
 
 
 
