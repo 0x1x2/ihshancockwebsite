@@ -9,7 +9,9 @@
 div{
   width: 100%;
 }
-
+body{
+  background-color: #333333; 	
+}
 .bgcolor{
   /*Base background color*/
   background-color: #333333;
@@ -61,6 +63,7 @@ div{
 hr{
 	background-color: #21870B;
 }
+
 
 
 
