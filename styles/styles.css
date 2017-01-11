@@ -9,21 +9,13 @@
 div{
   width: 100%;
 }
-body{
-  background-color: #333333; 	
-}
+
 .bgcolor{
   /*Base background color*/
   background-color: #333333;
 }
 
-.light_text{
-  font-weight: lighter;
-}
 
-.bold_text{
-  font-weight: bold;
-}
 
 .allcaps{
   /*All caps tag*/
@@ -35,50 +27,85 @@ body{
   text-align: center;
 }
 
+/*
+
+ Text decoration
+ 
+ */
+.light_text{
+  /*Light (thin) text*/
+  font-weight: lighter;
+}
+
+.bold_text{
+  /*Bold text*/
+  font-weight: bold;
+}
+
+.strikethrough_text {
+  /*Strikethrough text (for like the things next to navbar)*/
+  text-decoration: line-through;
+}
+
 .title_text{
   color: #FFFFFF;
   font-size: 300%;
-  font-family: Raleway, Geneva, sans-serif
+  font-family: Raleway, Geneva, sans-serif;
   /*Titular text base*/
 }
 
 .subtitle_text{
   color: #FFFFFF;
   font-size: 200%;
-  font-family: Raleway, Geneva, sans-serif
+  font-family: Raleway, Geneva, sans-serif;
 }
 
 .body_text{
   color: #FFFFFF;
   font-size: 100%;
-  font-family: "Trebuchet MS", Helvetica, sans-serif
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   /*Body text base*/
 }
 
+.navbar{
+  position: relative;
+  display: inline-block;	
+}
+
+.transparent_background{
+  opacity: 1;	
+  outline: none;
+  background-color: transparent;
+  border: 0px;
+}
+
+
 .homepage_image{
-	width: 80%;
-	height: 30%;
-}
-/* Period 2 Page*/
-.green{
-	border-color: #21870B;
-	background-color: #21870B;
-	color: #21870B;
-}
-p.captionP2{
-	
-	
+  width: 80%;
+  height: 30%;
 }
 
+.block{
+	display: block;
+}
 
+.navbar_dropdown_content{
+  display: none;
+  position: absolute;
+  width: auto;
+}
 
+.navbar_text{
+  color: rgb(119,119,119);
+  font-family: Raleway, Geneva, sans-serif;
+  font-size: 125%;
+  padding: 1.5vw;
+}
 
-
-
-
-
-
-
-
-
-
+.navbar_periods_dropdown{
+  display: inline-block;
+  width: auto;
+}
+.navbar_periods_dropdown:hover .navbar_dropdown_content{
+  display: block;
+}
