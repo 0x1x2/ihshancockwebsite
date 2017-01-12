@@ -48,32 +48,28 @@ div{
 }
 
 .title_text{
+  /*Large title text*/
   color: #FFFFFF;
   font-size: 300%;
   font-family: Raleway, Geneva, sans-serif;
-  /*Titular text base*/
 }
 
 .subtitle_text{
+  /*Smaller subtitle/heading text*/
   color: #FFFFFF;
   font-size: 200%;
   font-family: Raleway, Geneva, sans-serif;
 }
 
 .body_text{
+  /*Body text*/ 
   color: #FFFFFF;
   font-size: 100%;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
-  /*Body text base*/
 }
 
 .lesspadding{
   padding: 1vw;
-}
-.navbar{
-  position: relative;
-  display: inline-block;
-  width: auto;
 }
 
 .transparent_background{
@@ -90,33 +86,40 @@ div{
 }
 
 .block{
-	display: block;
+  display: block;
 }
 
+/* Navigation bar CSS*/
+.navbar{
+  position: relative;
+  display: inline-block;
+  width: auto;
+}
+
+/*Navigation bar text*/
+.navbar_text{
+  color: rgb(119,119,119);
+  font-family: Raleway, Geneva, sans-serif;
+  font-size: 125%;
+  padding: 1vw;
+  text-decoration: none;
+}
+
+/*Dropdown CSS for periods tab*/
+.navbar_periods_dropdown{
+  display: inline-block;
+  width: auto;
+}
+
+/*Periods dropdown before hover (no-show)*/
 .navbar_dropdown_content{
   display: none;
   position: absolute;
   width: auto;
 }
 
-.navbar_text{
-  color: rgb(119,119,119);
-  font-family: Raleway, Geneva, sans-serif;
-  font-size: 125%;
-  padding: 1vw;
-}
-
-.navbar_periods_dropdown{
-  display: inline-block;
-  width: auto;
-}
+/*On hover over the Periods text for dropdown*/
 .navbar_periods_dropdown:hover .navbar_dropdown_content{
   display: block;
 }
 
-.aesthetic_dash{
-  display: inline-block;
-  height: 1px;
-  width: 5vw;
-  background-color: rgb(119,119,119);
-}
