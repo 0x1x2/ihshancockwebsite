@@ -113,6 +113,10 @@ Navigation bar CSS
   font-family: Raleway, Geneva, sans-serif;
   font-size: 125%;
   padding: 1vw;
+}
+
+/*Removes text-decoration (underline in navigation bar LINKS only so the lines on side can still exist)*/
+a.navbar_text{
   text-decoration: none;
 }
 
