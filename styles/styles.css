@@ -137,4 +137,100 @@ a.navbar_text{
 .navbar_periods_dropdown:hover .navbar_dropdown_content{
   display: block;
 }
+/*
+* CONVENTIONS NOTE
+* You can use multiple tags to make text more specific without a ton of more classes.
+* For example, if you want all caps but with the same size as body text, you can do
+* class="allcaps body_text" in your HTML.
+* kay, thanks <3
+*/ 
+
+div{
+  width: 100%;
+}
+body{
+	background-color: #333333;
+	color: white; 
+	font-family: sans-serif;
+}
+.bgcolor{
+  /*Base background color*/
+  background-color: #333333;
+}
+
+.light_text{
+  font-weight: lighter;
+}
+
+.bold_text{
+  font-weight: bold;
+}
+
+.allcaps{
+  /*All caps tag*/
+  text-transform: uppercase;
+}
+p.desc{
+	
+}
+.materials{
+	position: relative;
+	left: 7vw;
+}
+.GP{
+	position: relative;
+	left: 55%;
+}
+.centered{
+  margin: auto;
+  text-align: centered;
+}
+.center-left{
+	margin: auto;
+	position: absolute;
+	left: 15vw;
+	
+}
+.title_text{
+  color: #FFFFFF;
+  font-size: 300%;
+  font-family: Raleway, Geneva, sans-serif
+  /*Titular text base*/
+}
+
+.subtitle_text{
+  color: #FFFFFF;
+  font-size: 200%;
+  font-family: Raleway, Geneva, sans-serif
+}
+
+.body_text{
+  color: #FFFFFF;
+  font-size: 100%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+  /*Body text base*/
+}
+
+.homepage_image{
+	width: 80%;
+	height: 30%;
+}
+/* Period 2 Page*/
+.green{
+	border-color: #21870B;
+	background-color: #21870B;
+	color: #21870B;
+}
+p.captionP2{
+	
+	
+}
+
+
+
+
+
+
+/* Period3 Page*/
+
 
