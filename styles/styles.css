@@ -152,6 +152,7 @@ body{
 	background-color: #333333;
 	color: white; 
 	font-family: sans-serif;
+	overflow: hidden;
 }
 .bgcolor{
   /*Base background color*/
