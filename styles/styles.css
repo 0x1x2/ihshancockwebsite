@@ -86,6 +86,18 @@ Text types
   display: block;
 }
 
+.inline-block{
+  display: inline-block;
+}
+
+.contact_ghost_button {
+  width: 200px;
+  padding: 8px;
+  color: #fff;
+  border: 1px solid #fff;
+  outline: none;
+  text-decoration: none;
+}
 /*
 
 Navigation bar CSS
