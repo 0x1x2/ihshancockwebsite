@@ -1,11 +1,3 @@
-/*
-* CONVENTIONS NOTE
-* You can use multiple tags to make text more specific without a ton of more classes.
-* For example, if you want all caps but with the same size as body text, you can do
-* class="allcaps body_text" in your HTML.
-* kay, thanks <3
-*/ 
-
 div{
   width: 100%;
 }
@@ -152,7 +144,7 @@ body{
 	background-color: #333333;
 	color: white; 
 	font-family: sans-serif;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 .bgcolor{
   /*Base background color*/
