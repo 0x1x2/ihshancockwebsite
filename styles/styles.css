@@ -1,12 +1,12 @@
+
 div{
   width: 100%;
 }
-
 .bgcolor{
   /*Base background color*/
   background-color: #333333;
 }
-.pcolor{
+a:hover{
   background-color: #5D5D5D;
 }
 .allcaps{
