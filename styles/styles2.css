@@ -111,3 +111,27 @@ div.center-left h3 {
 .title2 {
 	text-align: center;
 }
+div.AMDIV{
+	width: 25vw;
+	height: 75vw;
+	left:400px ;
+	position: relative;
+	top: 100px;
+	font-size: 18px;
+}
+li.pad{
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.kids{
+	position: absolute;
+	top: 0px;
+	width: 20vw;
+	left: 500px;
+}
+.hancock{
+	position: absolute;
+	top: 300px;
+	width: 20vw;
+	left: 500px;
+}
