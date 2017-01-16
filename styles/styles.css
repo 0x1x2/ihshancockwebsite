@@ -80,6 +80,10 @@ Text types
   height: 30%;
 }
 
+.image5 {
+  width: 100px;	
+}
+
 .block{
   display: block;
 }
@@ -106,6 +110,10 @@ Navigation bar CSS
   display: inline-block;
   width: auto;
   z-index: 10;
+}
+
+.navbar a {
+  z-index: 10;	
 }
 
 /*Navigation bar text*/
