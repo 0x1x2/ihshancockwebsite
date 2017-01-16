@@ -1,1 +1,97 @@
+div{
+  width: 100%;
+}
 
+body{
+	background-color: #333333;
+	color: white; 
+	font-family: sans-serif;
+	overflow-x: hidden;
+}
+
+p.desc{
+	
+}
+
+div.overview{
+	max-height: 100px;
+	display: inline-block;
+	position: relative;
+	top: 30px;
+	left: 3vw;
+}
+
+p.desc {
+	position: relative;
+	bottom: 235px;
+	left: 175px;
+	font-size: 18px;
+}
+
+.materials{
+	position: relative;
+	left: 7vw;
+	margin-top: -100px;
+}
+
+div.materials li {
+	font-size: 18px;
+}
+
+div.center-left  p {
+	font-size: 18px;
+}
+
+.GP{
+	position: relative;
+	left: 55%;
+	margin-top: -415px;
+}
+
+.GP img {
+	width: 350px;
+}
+
+.GP p, .GP li {
+	font-size: 18px;
+}
+
+.centered{
+  margin: auto;
+  text-align: centered;
+}
+.center-left{
+	margin-left: -30%;
+	position: absolute;
+	text-align: center;
+	
+}
+
+.title_text{
+  color: #FFFFFF;
+  font-size: 300%;
+  font-family: Raleway, Geneva, sans-serif
+  /*Titular text base*/
+}
+
+.subtitle_text{
+  color: #FFFFFF;
+  font-size: 200%;
+  font-family: Raleway, Geneva, sans-serif
+}
+
+.body_text{
+  color: #FFFFFF;
+  font-size: 100%;
+  font-family: "Trebuchet MS", Helvetica, sans-serif
+  /*Body text base*/
+}
+
+.homepage_image{
+	width: 80%;
+	height: 30%;
+}
+/* Period 2 Page*/
+.green{
+	border-color: #52A87D;
+}
