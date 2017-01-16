@@ -114,10 +114,6 @@ Navigation bar CSS
   padding: 1vw;
 }
 
-.navbar {
-	padding-left: 19.5%;
-}
-
 /*Removes text-decoration (underline in navigation bar LINKS only so the lines on side can still exist)*/
 a.navbar_text{
   text-decoration: none;
