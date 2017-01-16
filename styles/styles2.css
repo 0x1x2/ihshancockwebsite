@@ -9,8 +9,8 @@ body{
 	overflow-x: hidden;
 }
 
-p.desc{
-	
+.navbar {
+	margin-top: 20px;	
 }
 
 div.overview{
