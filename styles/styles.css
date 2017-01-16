@@ -46,6 +46,7 @@ Text types
   color: #FFFFFF;
   font-size: 300%;
   font-family: Raleway, Geneva, sans-serif;
+  z-index: 1;
 }
 
 .subtitle_text{
