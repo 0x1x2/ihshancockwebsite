@@ -81,7 +81,13 @@ Text types
 }
 
 .image5 {
-  width: 175px;	
+  width: 200px;	
+}
+
+p.desc {
+  position: relative;
+  left: 100px;
+  bottom: 150px;
 }
 
 .block{
