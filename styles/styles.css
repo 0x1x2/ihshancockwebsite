@@ -6,9 +6,9 @@ div{
   /*Base background color*/
   background-color: #333333;
 }
-
-
-
+.pcolor{
+  background-color: #5D5D5D;
+}
 .allcaps{
   /*All caps tag*/
   text-transform: uppercase;
