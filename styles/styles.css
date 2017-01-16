@@ -20,7 +20,6 @@ div{
 }
 
 /*
-
  Text decoration
  
  */
@@ -40,9 +39,7 @@ div{
 }
 
 /*
-
 Text types
-
 */
 .title_text{
   /*Large title text*/
@@ -99,9 +96,7 @@ Text types
   text-decoration: none;
 }
 /*
-
 Navigation bar CSS
-
 */
 
 /*CSS for the entire navigation bar*/
@@ -117,6 +112,10 @@ Navigation bar CSS
   font-family: Raleway, Geneva, sans-serif;
   font-size: 125%;
   padding: 1vw;
+}
+
+.navbar {
+	padding-left: 19.5%;
 }
 
 /*Removes text-decoration (underline in navigation bar LINKS only so the lines on side can still exist)*/
