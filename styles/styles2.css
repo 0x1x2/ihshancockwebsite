@@ -29,6 +29,12 @@ p.desc {
 	font-size: 18px;
 }
 
+p.desc5 {
+	position: relative;
+	bottom: 300px;
+	left: 175px;
+}
+
 .materials{
 	position: relative;
 	left: 7vw;
