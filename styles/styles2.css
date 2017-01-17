@@ -91,6 +91,11 @@ div.center-left h3 {
 	top: 80px;
 }
 
+.gp5 {
+	position: relative;
+	bottom: 70px;
+}
+
 .centered{
   margin: auto;
   text-align: centered;
