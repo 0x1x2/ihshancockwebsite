@@ -29,6 +29,12 @@ p.desc {
 	font-size: 18px;
 }
 
+p.desc3 {
+	position: relative;
+	bottom: 250px;
+	left: 230px;
+}
+
 p.desc5 {
 	position: relative;
 	bottom: 250px;
