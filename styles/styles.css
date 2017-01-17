@@ -62,6 +62,10 @@ Text types
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
+span.grey {
+	color: #808080;
+}
+
 .lesspadding{
   padding: 1vw;
 } 
