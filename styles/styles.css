@@ -232,3 +232,8 @@ p.desc{
 div.overview{
 	max-height: 100px;
 }
+.rightside{
+	position: relative;
+	top: 400px;
+	left: 400px;
+}
