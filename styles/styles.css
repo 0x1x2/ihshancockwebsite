@@ -232,8 +232,9 @@ p.desc{
 div.overview{
 	max-height: 100px;
 }
-.rightside{
+ul.rightside{
 	position: relative;
 	top: 100px;
 	left: 400px;
+	text-decoration: none;
 }
